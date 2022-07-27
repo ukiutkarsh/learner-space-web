@@ -1,0 +1,49 @@
+.style{
+    text-align: center;
+    color: white;
+}
+.style .container {
+    height: 600px;
+}
+.style h1{
+    color: red;
+}
+.image {
+    height: 100px;
+    width: 100px;
+    will-change: filter;
+  }
+  
+@keyframes image-spin {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+    .image {
+    animation: image-spin infinite 20s linear;
+}
+}
+
+
+.style .name{
+    color: yellow;
+}
+.style .designation{
+    color: green;
+}
+.style p{
+    margin-left: 10%;
+    max-width: fit-content;
+    margin-right: 10%;
+}
+
+.style form input{
+    padding: 8px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
