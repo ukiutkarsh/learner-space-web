@@ -1,10 +1,14 @@
 .style{
     text-align: center;
     color: white;
+    background-color: black;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
 }
-.style .container {
-    height: 600px;
-}
+/* .style .container {
+    height: auto;
+} */
 .style h1{
     color: red;
 }
@@ -13,7 +17,28 @@
     width: 100px;
     will-change: filter;
   }
-  
+.image1 {
+    height: 50%;
+    width: 40%;
+    margin-left: 5%;
+    will-change: filter;
+  } 
+.button1 {
+    /* margin-left: 20%; */
+    margin-right: 20%;
+    border-radius: 7px;
+    font-size: large;
+    color: white;
+    background: #000;
+}
+.button2 {
+    margin-left: 20%;
+    border-radius: 7px;
+    font-size: large;
+    color: white;
+    background: #000;
+    /* margin-right: 15%; */
+}
 @keyframes image-spin {
 from {
     transform: rotate(0deg);
